@@ -66,7 +66,7 @@ def predict_machine_failure(input_data, lr_model, nn_model, scaler):
         return None
 
 def main():
-    st.title("Machine Failure Prediction System By Sameer NB")
+    st.title("Machine Failure Prediction System")
     
     # Load models
     lr_model, nn_model, scaler = load_models()
